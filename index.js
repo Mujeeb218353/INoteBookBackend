@@ -11,7 +11,7 @@ app.use(cors());
 
 // CORS configuration
 const corsOptions = {
-    origin: 'https://your-frontend-app-url.com', // Replace with your frontend app URL
+    origin: 'https://inotebook-app-mu.vercel.app', // Replace with your frontend app URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
 };
