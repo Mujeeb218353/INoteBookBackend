@@ -14,11 +14,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-<<<<<<< HEAD
     "node": "18.x"
-=======
-    "node": "18.x"
->>>>>>> origin/main
   },
   "scripts": {
     "start": "node index.js",
