@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.2",
+    "nodemon": "^3.0.3"
+  },
+  "name": "inotebook-backend",
+  "description": "iNotebook - Your notebook on the cloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+<<<<<<< HEAD
+    "node": "18.x"
+=======
+    "node": "18.x"
+>>>>>>> origin/main
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "author": "Mujeeb",
+  "license": "ISC"
+}
