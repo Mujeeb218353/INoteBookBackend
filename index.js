@@ -7,14 +7,11 @@ connectToMongo();
 //middleware
 app.use(express.json());
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://inotebook-app-mu.vercel.app'
+}));
 
-// CORS configuration
-const corsOptions = {
-    origin: 'https://inotebook-app-mu.vercel.app', // Replace with your frontend app URL
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed HTTP methods
-    allowedHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
-};
+
 //Available Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/notes', require('./routes/notes'));
