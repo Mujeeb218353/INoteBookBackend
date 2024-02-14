@@ -8,7 +8,7 @@ connectToMongo();
 app.use(express.json());
 
 app.use(cors({
-    origin: 'https://inotebook-igvqu5tqx-mujeeb-ur-rehmans-projects.vercel.app'
+    origin: 'https://inotebook-app-mu.vercel.app'
 }));
 
 
